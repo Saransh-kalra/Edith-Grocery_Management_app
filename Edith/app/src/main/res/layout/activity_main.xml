@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#031926"
+        android:background="@drawable/rectangle_1"
         android:orientation="vertical">
 
         <LinearLayout
@@ -22,6 +22,7 @@
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:layout_margin="10dp"
                 android:src="@drawable/edith_logo"/>
         </LinearLayout>
 
@@ -30,16 +31,18 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/email"
-                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_toStartOf="@+id/btn_login"
-                android:layout_weight="1"
                 android:text="Email:"
                 android:textColor="#f4e9cd"
                 android:textSize="20sp"
@@ -48,16 +51,18 @@
 
             <EditText
                 android:id="@+id/email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
+                android:layout_width="291dp"
+                android:layout_height="38dp"
                 android:layout_alignStart="@+id/password"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:background="#f4e9cd"
+                android:background="@drawable/edit_text_border"
                 android:ems="10"
-                android:hint="someone@example.com"
+                android:hint="email@ttu.edu or ttu/username"
                 android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:textColorHint="@android:color/black"
                 tools:layout_editor_absoluteX="127dp"
                 tools:layout_editor_absoluteY="116dp" />
 
@@ -68,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView3"
@@ -76,27 +81,29 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/textView1"
                 android:layout_alignTop="@+id/password"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
                 android:text="Password:"
                 android:textColor="#f4e9cd"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 tools:layout_editor_absoluteX="26dp"
                 tools:layout_editor_absoluteY="206dp" />
 
             <EditText
                 android:id="@+id/password"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
+                android:layout_width="291dp"
+                android:layout_height="38dp"
                 android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:layout_marginEnd="53dp"
-                android:layout_weight="1"
-                android:background="#f4e9cd"
+                android:background="@drawable/edit_text_border"
                 android:ems="8"
-                android:hint="*******"
+                android:hint="***********"
                 android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColorHint="@android:color/background_dark"
                 tools:layout_editor_absoluteX="127dp"
                 tools:layout_editor_absoluteY="202dp" />
         </LinearLayout>
@@ -104,8 +111,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
             android:orientation="vertical">
 
             <Button
@@ -114,50 +122,42 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:background="#468189"
+                android:background="@drawable/edit_button_border"
                 android:gravity="center"
                 android:text="Login"
                 android:textColor="#f4e9cd"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="289dp"
-                />
+                tools:layout_editor_absoluteY="289dp" />
 
             <TextView
-                android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:gravity="center"
+                android:layout_gravity="center"
                 android:text="Not yet registered? sign up below"
-                android:textColor="#f4e9cd"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="351dp" />
+                android:textAlignment="center"
+                android:textColor="#f4e9cd" />
 
             <Button
                 android:id="@+id/btn_signup"
                 android:layout_width="wrap_content"
-                android:layout_height="47dp"
+                android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="20dp"
                 android:layout_weight="1"
-                android:background="#468189"
+                android:background="@drawable/edit_button_border"
                 android:gravity="center"
                 android:text="Sign Up"
                 android:textColor="#f4e9cd"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="385dp"
-                />
-                <!--android:onClick="gotosignup"-->
+                tools:layout_editor_absoluteY="385dp" />
+
 
         </LinearLayout>
 
