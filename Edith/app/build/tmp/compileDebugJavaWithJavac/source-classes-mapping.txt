@@ -1,0 +1,10 @@
+com/example/edith/HomePage.java
+ com.example.edith.HomePage
+com/example/edith/FridgeManagementPage.java
+ com.example.edith.FridgeManagementPage
+com/example/edith/BuildConfig.java
+ com.example.edith.BuildConfig
+com/example/edith/MeatManager.java
+ com.example.edith.MeatManager
+com/example/edith/MainActivity.java
+ com.example.edith.MainActivity
