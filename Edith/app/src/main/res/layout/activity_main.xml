@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#031926"
+    android:background="#454545"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/rectangle_1"
+        android:background="#32d5d1"
         android:orientation="vertical">
 
         <LinearLayout
@@ -20,8 +20,8 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:src="@drawable/edith_logo"/>
         </LinearLayout>
@@ -44,7 +44,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_toStartOf="@+id/btn_login"
                 android:text="Email:"
-                android:textColor="#f4e9cd"
+                android:textColor="#ffffff"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="60dp"
                 tools:layout_editor_absoluteY="120dp" />
@@ -59,7 +59,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/edit_text_border"
                 android:ems="10"
-                android:hint="email@ttu.edu or ttu/username"
+                android:hint="JohnDoe@gmail.com"
                 android:inputType="textEmailAddress"
                 android:textAlignment="center"
                 android:textColorHint="@android:color/black"
@@ -84,7 +84,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:text="Password:"
-                android:textColor="#f4e9cd"
+                android:textColor="#ffffff"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="26dp"
                 tools:layout_editor_absoluteY="206dp" />
@@ -119,7 +119,7 @@
             <Button
                 android:id="@+id/btn_login"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="20dp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
@@ -128,7 +128,7 @@
                 android:background="@drawable/edit_button_border"
                 android:gravity="center"
                 android:text="Login"
-                android:textColor="#f4e9cd"
+                android:textColor="#32d5d1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="289dp" />
@@ -139,12 +139,13 @@
                 android:layout_gravity="center"
                 android:text="Not yet registered? sign up below"
                 android:textAlignment="center"
-                android:textColor="#f4e9cd" />
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
 
             <Button
                 android:id="@+id/btn_signup"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="20dp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="5dp"
@@ -153,7 +154,7 @@
                 android:background="@drawable/edit_button_border"
                 android:gravity="center"
                 android:text="Sign Up"
-                android:textColor="#f4e9cd"
+                android:textColor="#32d5d1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="385dp" />
