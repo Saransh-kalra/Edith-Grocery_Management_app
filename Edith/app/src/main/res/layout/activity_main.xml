@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#031926"
+    android:background="#454545"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ffffff"
+        android:background="#32d5d1"
         android:orientation="vertical">
 
         <LinearLayout
@@ -44,7 +44,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_toStartOf="@+id/btn_login"
                 android:text="Email:"
-                android:textColor="#252525"
+                android:textColor="#ffffff"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="60dp"
                 tools:layout_editor_absoluteY="120dp" />
@@ -84,7 +84,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:text="Password:"
-                android:textColor="#252525"
+                android:textColor="#ffffff"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="26dp"
                 tools:layout_editor_absoluteY="206dp" />
@@ -128,7 +128,7 @@
                 android:background="@drawable/edit_button_border"
                 android:gravity="center"
                 android:text="Login"
-                android:textColor="#ffffff"
+                android:textColor="#32d5d1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="289dp" />
@@ -140,7 +140,7 @@
                 android:text="Not yet registered? sign up below"
                 android:textAlignment="center"
                 android:textSize="20dp"
-                android:textColor="#252525" />
+                android:textColor="#ffffff" />
 
             <Button
                 android:id="@+id/btn_signup"
@@ -154,7 +154,7 @@
                 android:background="@drawable/edit_button_border"
                 android:gravity="center"
                 android:text="Sign Up"
-                android:textColor="#ffffff"
+                android:textColor="#32d5d1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="385dp" />
