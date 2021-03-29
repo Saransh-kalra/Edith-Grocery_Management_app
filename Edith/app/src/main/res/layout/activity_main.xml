@@ -21,9 +21,9 @@
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:src="@drawable/edith_logo"/>
+                android:src="@drawable/edit_logo_transparent"/>
         </LinearLayout>
 
         <LinearLayout
