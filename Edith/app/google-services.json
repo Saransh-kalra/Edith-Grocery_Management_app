@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "343023494163",
+    "project_id": "edith-f8054",
+    "storage_bucket": "edith-f8054.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343023494163:android:efaa48d6cded9ef6ec8be6",
+        "android_client_info": {
+          "package_name": "com.example.edith"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343023494163-t3sm68dhdog8veskdgi8vk6nmv8oqftb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMiIUorLla1Hp_ASNCWuLRThLZMRKn_gQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343023494163-t3sm68dhdog8veskdgi8vk6nmv8oqftb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

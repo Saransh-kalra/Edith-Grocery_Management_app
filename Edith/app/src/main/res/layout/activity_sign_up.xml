@@ -228,7 +228,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:text="Sign Up"
-                android:onClick="gotoHome"
+                android:onClick="registeruser"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="416dp"

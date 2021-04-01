@@ -4,7 +4,7 @@
             "outputFile": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/5e2980274a441e37af2d7c04f5a580b7/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/d6ae0f13d989b6ee432449025bfd8cf4/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/7aac9d781ed97dced8c8353dbb0aa388/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/275bb87ec812f2d66b7590071659d15b/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
