@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void gotoSignUp(View view){
 
-        Intent j = new Intent(this, HomeActivity.class);
+        Intent j = new Intent(this, SignUp.class);
         startActivity(j);
 
     }

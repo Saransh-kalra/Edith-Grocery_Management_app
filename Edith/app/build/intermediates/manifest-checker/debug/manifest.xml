@@ -18,6 +18,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.edith.SignUp" />
         <activity android:name="com.example.edith.ViewInventory" />
         <activity
             android:name="com.example.edith.HomeActivity"

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/87d4a410e73995339ce5777927c6ebff/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/5e2980274a441e37af2d7c04f5a580b7/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/a626c8203a46ee4093f094f57330b70b/AndroidManifest.xml:2:1-11:12
@@ -36,25 +36,25 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-beta01] /Users/saransh
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/06b8affe6847e410014d67ec7cf1f70a/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0-beta01.aar/2916ba7a1fbf2dfd53a7bd6d6696d114/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-beta01.aar/9139071e289c899be8b948ef0c1f9a3f/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:3:5-32
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/87d4a410e73995339ce5777927c6ebff/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/87d4a410e73995339ce5777927c6ebff/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/a626c8203a46ee4093f094f57330b70b/AndroidManifest.xml:9:5-20
@@ -66,47 +66,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/sara
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/7aac9d781ed97dced8c8353dbb0aa388/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.edith.SignUp
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:12:9-53
+	android:name
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:12:19-41
 activity#com.example.edith.ViewInventory
-ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:12:9-60
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:13:9-51
 	android:name
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:12:19-48
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:13:19-48
 activity#com.example.edith.HomeActivity
-ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:13:9-16:68
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:14:9-17:59
 	android:label
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:15:13-56
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:16:13-56
 	android:theme
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:16:13-56
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:17:13-56
 	android:name
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:15:13-41
 activity#com.example.edith.MainActivity
-ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:17:9-23:20
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:17:19-47
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/87d4a410e73995339ce5777927c6ebff/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/87d4a410e73995339ce5777927c6ebff/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/5e2980274a441e37af2d7c04f5a580b7/AndroidManifest.xml:20:5-44
@@ -171,13 +175,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-beta01] /Users/sar
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0-beta01.aar/2916ba7a1fbf2dfd53a7bd6d6696d114/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-beta01.aar/9139071e289c899be8b948ef0c1f9a3f/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-beta01.aar/9139071e289c899be8b948ef0c1f9a3f/AndroidManifest.xml:20:5-44
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-		ADDED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
