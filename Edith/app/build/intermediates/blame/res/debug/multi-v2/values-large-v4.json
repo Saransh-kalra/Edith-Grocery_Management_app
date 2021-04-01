@@ -4,17 +4,7 @@
             "outputFile": "/Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8c5e19c7e0e9fab1151dea369213575b/res/values-large-v4/values-large-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
-                    }
-                },
-                {
-                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/4d714abe5587dc0c556a611818b9ad36/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/87d4a410e73995339ce5777927c6ebff/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "752,874",
                         "endColumns": "121,133",
                         "endOffsets": "869,1003"
+                    }
+                },
+                {
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/5e2980274a441e37af2d7c04f5a580b7/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
                     }
                 }
             ]

@@ -4,7 +4,7 @@
             "outputFile": "/Users/saranshkalra/Desktop/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8c5e19c7e0e9fab1151dea369213575b/res/values-v24/values-v24.xml",
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/5e2980274a441e37af2d7c04f5a580b7/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/c02e11a105334ddea803c7dd1d311b6d/res/values-v24/values-v24.xml",
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-1/files-1.1/media-1.0.0-beta01.aar/cc4b12a6f584a9b2aaeb1653721e86c5/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
