@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_items"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Scan Receipt / Add Items" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_pie_chart_black_24dp"
+            android:title="View Statistics" />
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="View Inventory" />
+        <item
+            android:id="@+id/nav_recipes"
+            android:icon="@drawable/ic_cake_black_24dp"
+            android:title="View Recipes" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_notification_setting"
+                android:icon="@drawable/ic_notifications_active_black_24dp"
+                android:title="Notifications Settings" />
+            <item
+                android:id="@+id/nav_update_profile"
+                android:icon="@drawable/ic_update_black_24dp"
+                android:title="Update Profile" />
+        </menu>
+    </item>
+
+</menu>

@@ -131,7 +131,8 @@
                 android:textColor="#32d5d1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="289dp" />
+                tools:layout_editor_absoluteY="289dp"
+                android:onClick="gotoHome"/>
 
             <TextView
                 android:layout_width="wrap_content"
