@@ -156,6 +156,7 @@
                 android:gravity="center"
                 android:text="Sign Up"
                 android:textColor="#32d5d1"
+                android:onClick="gotoSignUp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="385dp" />
