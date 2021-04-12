@@ -1,8 +1,9 @@
 package com.example.edith;
 
-import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 
 import com.example.edith.adapter.meatcontentsadapter;
 import com.example.edith.model.MeatContents;
@@ -10,22 +11,28 @@ import com.example.edith.model.MeatContents;
 import java.util.ArrayList;
 import java.util.List;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class ViewInventory extends AppCompatActivity {
+public class ViewInventory extends Fragment {
 
     RecyclerView MeatContentRecyclerView;
     meatcontentsadapter MeatContentsAdapter;
     List<MeatContents> meatContentsList;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_inventory);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.activity_view_inventory, container, false);
+    }
 
-        MeatContentRecyclerView = findViewById(R.id.MeatRecycler);
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        MeatContentRecyclerView = getView().findViewById(R.id.MeatRecycler);
 
         meatContentsList = new ArrayList<>();
         meatContentsList.add(new MeatContents(1, R.drawable.milk, R.drawable.rotten, "Milk"));
@@ -42,9 +49,9 @@ public class ViewInventory extends AppCompatActivity {
     }
 
     private void setMeatContentsRecycler(List<MeatContents> datalist) {
-        RecyclerView.LayoutManager LayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL , false);
+        RecyclerView.LayoutManager LayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL , false);
         MeatContentRecyclerView.setLayoutManager(LayoutManager);
-        MeatContentsAdapter = new meatcontentsadapter(this, datalist);
+        MeatContentsAdapter = new meatcontentsadapter(getActivity(), datalist);
         MeatContentRecyclerView.setAdapter(MeatContentsAdapter);
     }
 
