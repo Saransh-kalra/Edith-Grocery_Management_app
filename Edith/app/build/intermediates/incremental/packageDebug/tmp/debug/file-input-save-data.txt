@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Apr 01 15:19:01 CDT 2021
+#Thu Apr 01 16:11:57 CDT 2021
 1.base=/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
 2.path=classes2.dex
 0.baseType=DIRECTORY
