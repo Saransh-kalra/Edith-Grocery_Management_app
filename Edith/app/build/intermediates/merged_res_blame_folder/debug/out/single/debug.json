@@ -4,20 +4,20 @@
         "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/drawable-v24/porkchop.png"
     },
     {
-        "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
-        "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/activity_sign_up.xml"
-    },
-    {
         "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_home_page.xml.flat",
         "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/home_page.xml"
     },
     {
-        "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_nav_header_home.xml.flat",
-        "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/nav_header_home.xml"
+        "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
+        "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/activity_sign_up.xml"
     },
     {
         "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_nav_drawer_home_activity.xml.flat",
         "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/nav_drawer_home_activity.xml"
+    },
+    {
+        "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_nav_header_home.xml.flat",
+        "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/nav_header_home.xml"
     },
     {
         "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",

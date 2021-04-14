@@ -1285,6 +1285,8 @@ id parent_matrix
 id password
 id percent
 id pin
+id profile_pic
+id profile_pic_text
 id progress_circular
 id progress_horizontal
 id radio
@@ -1381,6 +1383,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userEmail
 id view_offset_helper
 id visible
 id wide
