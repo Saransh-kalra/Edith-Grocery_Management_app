@@ -65,11 +65,10 @@
                 android:id="@+id/profile_pic"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
-
+                android:background="@drawable/edit_text_border"
                 android:gravity="center"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:src = "@drawable/profile_logo"
                 />
         </LinearLayout>
 

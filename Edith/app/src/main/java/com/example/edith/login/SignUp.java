@@ -2,6 +2,7 @@ package com.example.edith.login;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Patterns;
@@ -99,6 +100,7 @@ public class SignUp extends AppCompatActivity {
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         pd.dismiss();
                         Snackbar.make(findViewById(android.R.id.content), "Image Uploaded", Snackbar.LENGTH_LONG).show();
+                        profilePic.setBackgroundColor(Color.TRANSPARENT);
                     }
                 }))
                 .addOnFailureListener(new OnFailureListener() {
