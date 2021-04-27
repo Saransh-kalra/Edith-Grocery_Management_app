@@ -2,15 +2,11 @@ com/example/edith/model/MeatContents.java
  com.example.edith.model.MeatContents
 com/example/edith/NavDrawerHomeActivity.java
  com.example.edith.NavDrawerHomeActivity
+com/example/edith/LandingActivity.java
+ com.example.edith.LandingActivity
+ com.example.edith.LandingActivity$1
 com/example/edith/BuildConfig.java
  com.example.edith.BuildConfig
-com/example/edith/adapter/meatcontentsadapter.java
- com.example.edith.adapter.meatcontentsadapter
- com.example.edith.adapter.meatcontentsadapter$meatcontentsviewholder
-com/example/edith/ViewInventory.java
- com.example.edith.ViewInventory
-com/example/edith/login/User.java
- com.example.edith.login.User
 com/example/edith/login/LoginActivity.java
  com.example.edith.login.LoginActivity
  com.example.edith.login.LoginActivity$1
@@ -23,3 +19,10 @@ com/example/edith/login/SignUp.java
  com.example.edith.login.SignUp$4
  com.example.edith.login.SignUp$5
  com.example.edith.login.SignUp$5$1
+com/example/edith/login/User.java
+ com.example.edith.login.User
+com/example/edith/ViewInventory.java
+ com.example.edith.ViewInventory
+com/example/edith/adapter/meatcontentsadapter.java
+ com.example.edith.adapter.meatcontentsadapter
+ com.example.edith.adapter.meatcontentsadapter$meatcontentsviewholder

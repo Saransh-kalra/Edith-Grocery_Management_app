@@ -32,7 +32,14 @@
                 android:id="@+id/nav_update_profile"
                 android:icon="@drawable/ic_update_black_24dp"
                 android:title="Update Profile" />
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Logout" />
         </menu>
+
     </item>
+
+
 
 </menu>

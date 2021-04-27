@@ -70,6 +70,23 @@
                         "endColumns": "100",
                         "endOffsets": "5660"
                     }
+                },
+                {
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9f350d2e67cc381e3258b4243b3ae38e/wear-1.0.0/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,116",
+                        "endOffsets": "158,275"
+                    },
+                    "to": {
+                        "startLines": "49,50",
+                        "startColumns": "4,4",
+                        "startOffsets": "5665,5773",
+                        "endColumns": "107,116",
+                        "endOffsets": "5768,5885"
+                    }
                 }
             ]
         }

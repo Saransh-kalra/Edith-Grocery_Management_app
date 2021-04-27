@@ -4,6 +4,23 @@
             "outputFile": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml",
             "map": [
                 {
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9f350d2e67cc381e3258b4243b3ae38e/wear-1.0.0/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,108",
+                        "endOffsets": "156,265"
+                    },
+                    "to": {
+                        "startLines": "49,50",
+                        "startColumns": "4,4",
+                        "startOffsets": "5413,5519",
+                        "endColumns": "105,108",
+                        "endOffsets": "5514,5623"
+                    }
+                },
+                {
                     "source": "/Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4b67a4f928447aed16f5ade9c01097e0/jetified-play-services-basement-17.1.0/res/values-am/values.xml",
                     "from": {
                         "startLines": "4",

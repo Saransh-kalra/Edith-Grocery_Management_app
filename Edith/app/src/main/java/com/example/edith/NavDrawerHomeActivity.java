@@ -1,10 +1,12 @@
 package com.example.edith;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -93,6 +95,10 @@ public class NavDrawerHomeActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_update_profile) {
 
+        } else if (id == R.id.log_out) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(this, LandingActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

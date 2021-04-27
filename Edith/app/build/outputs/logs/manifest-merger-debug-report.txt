@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-38:12
 MERGED from [com.google.firebase:firebase-analytics:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/d37c32e77beb89fdf8a32f1027074642/jetified-firebase-analytics-18.0.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/ebdb81ec82d7db3c66107302ce169ecd/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/73c1b3255dcbdd1aff006e38758225dd/material-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/0c9ab20a4862ccce4ba3583088e2902d/appcompat-1.0.0-beta01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.wear:wear:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9f350d2e67cc381e3258b4243b3ae38e/wear-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/acb0fc04e44692aba8b945bcc5c64dda/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/28e320b4aade536a560b135dfcf4397c/legacy-support-v4-1.0.0-beta01/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/222e134cba2d349f1e4065f697f9cee3/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -46,43 +47,43 @@ MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/saranshkalra/.grad
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/b0cf5ff9a9e3bf92de74d76f28de8f48/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/8c87e949e9f9d3cdf435adfefa7cc286/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a08a61d091975000a4dce67a59e2d28a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a1ba948683f1cc3fb6b9651269eda2cf/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6217ae39eb11b529fe17c9fec473abce/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/227b0a1796476d93b382253a71582657/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a1ba948683f1cc3fb6b9651269eda2cf/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/bda029c8785439d85d1b6ee0c4a2a58b/core-1.1.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a577a4f2d9e6384dbceeb5e0ea30a993/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/232f4a453ff4ee4dc4d17aca3feda22c/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/f814974419152abc412d9d41345c2be3/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9343bafb14981f23529b908b282099d2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/593fd7784a3adf6978e158c9ea2ee8a9/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/436611e702b7f557844cf4e31c748255/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/222d2d3818c539e35ee4f60deabbc412/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/5e02444273c6a07c53ce8cd033ff27e1/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9343bafb14981f23529b908b282099d2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/593fd7784a3adf6978e158c9ea2ee8a9/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6cbcfb2ce82b6124d3e0157ed6461498/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/f7e4217367496a423c08b58cd7a649f8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a16ef9f377ada6515a2739603d983dff/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/959b7a97a63aa5b25e2c274b11e9b65b/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/853a63b9d819327d9c70166522d50800/jetified-protolite-well-known-types-17.1.1/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/e2a19ef17fabfb1276cb89c4a4487290/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-38:12
 		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:1-38:12
 		INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:5:5-31:19
 MERGED from [com.google.firebase:firebase-analytics:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/d37c32e77beb89fdf8a32f1027074642/jetified-firebase-analytics-18.0.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/d37c32e77beb89fdf8a32f1027074642/jetified-firebase-analytics-18.0.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/ebdb81ec82d7db3c66107302ce169ecd/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:16:5-24:19
@@ -138,65 +139,83 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/sara
 	android:label
 		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:9:9-53
 	android:icon
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:7:9-42
 	android:allowBackup
 		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.example.edith.login.SignUp
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:12:9-59
-	android:name
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:12:19-47
-activity#com.example.edith.NavDrawerHomeActivity
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:13:9-16:59
+activity#com.example.edith.LandingActivity
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:12:9-20:20
 	android:label
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:15:13-56
-	android:theme
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:16:13-56
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:14:13-45
 	android:name
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:14:13-50
-activity#com.example.edith.login.LoginActivity
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:17:9-23:20
-	android:name
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:17:19-54
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:13:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:21:27-74
-uses-permission#android.permission.INTERNET
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:26:5-68
-MERGED from [com.google.firebase:firebase-firestore:22.1.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/ebdb81ec82d7db3c66107302ce169ecd/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-firestore:22.1.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/ebdb81ec82d7db3c66107302ce169ecd/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-auth:20.0.3] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/805d61b750045d07d6274e241761f908/jetified-firebase-auth-20.0.3/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-auth:20.0.3] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/805d61b750045d07d6274e241761f908/jetified-firebase-auth-20.0.3/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-storage:19.2.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/2463fd9af60315f94ca6b2e1beadb579/jetified-firebase-storage-19.2.2/AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-storage:19.2.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/2463fd9af60315f94ca6b2e1beadb579/jetified-firebase-storage-19.2.2/AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/e7656dc500e26d5985fed9d364afdc23/jetified-firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/e7656dc500e26d5985fed9d364afdc23/jetified-firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-measurement:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/67e0b97d3ac1c33acaaf232548a0f25b/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/67e0b97d3ac1c33acaaf232548a0f25b/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6685b80d3ed147f07f3d6f110a28e376/jetified-play-services-measurement-impl-18.0.2/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6685b80d3ed147f07f3d6f110a28e376/jetified-play-services-measurement-impl-18.0.2/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/c0b9c77d87b70d0b9cd24269aa5a059b/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/c0b9c77d87b70d0b9cd24269aa5a059b/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:23:5-67
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.edith.login.SignUp
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:26:22-66
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:25:19-47
+activity#com.example.edith.NavDrawerHomeActivity
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:26:9-29:59
+	android:label
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:28:13-56
+	android:theme
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:27:13-50
+activity#com.example.edith.login.LoginActivity
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:30:9-56
+	android:name
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:30:19-54
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:27:5-81
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:33:5-80
 	android:name
-		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:27:22-79
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:33:22-77
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:34:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/67e0b97d3ac1c33acaaf232548a0f25b/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/67e0b97d3ac1c33acaaf232548a0f25b/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6685b80d3ed147f07f3d6f110a28e376/jetified-play-services-measurement-impl-18.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6685b80d3ed147f07f3d6f110a28e376/jetified-play-services-measurement-impl-18.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/c0b9c77d87b70d0b9cd24269aa5a059b/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/c0b9c77d87b70d0b9cd24269aa5a059b/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:34:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:36:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/ebdb81ec82d7db3c66107302ce169ecd/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/ebdb81ec82d7db3c66107302ce169ecd/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.3] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/805d61b750045d07d6274e241761f908/jetified-firebase-auth-20.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.3] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/805d61b750045d07d6274e241761f908/jetified-firebase-auth-20.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage:19.2.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/2463fd9af60315f94ca6b2e1beadb579/jetified-firebase-storage-19.2.2/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.2.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/2463fd9af60315f94ca6b2e1beadb579/jetified-firebase-storage-19.2.2/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/e7656dc500e26d5985fed9d364afdc23/jetified-firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/e7656dc500e26d5985fed9d364afdc23/jetified-firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/67e0b97d3ac1c33acaaf232548a0f25b/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/67e0b97d3ac1c33acaaf232548a0f25b/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6685b80d3ed147f07f3d6f110a28e376/jetified-play-services-measurement-impl-18.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6685b80d3ed147f07f3d6f110a28e376/jetified-play-services-measurement-impl-18.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/c0b9c77d87b70d0b9cd24269aa5a059b/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/c0b9c77d87b70d0b9cd24269aa5a059b/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml:36:22-64
 uses-sdk
 INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/AndroidManifest.xml
@@ -209,6 +228,8 @@ MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/saranshka
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/73c1b3255dcbdd1aff006e38758225dd/material-1.0.0-beta01/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/0c9ab20a4862ccce4ba3583088e2902d/appcompat-1.0.0-beta01/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/0c9ab20a4862ccce4ba3583088e2902d/appcompat-1.0.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9f350d2e67cc381e3258b4243b3ae38e/wear-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9f350d2e67cc381e3258b4243b3ae38e/wear-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/acb0fc04e44692aba8b945bcc5c64dda/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/acb0fc04e44692aba8b945bcc5c64dda/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-beta01] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/28e320b4aade536a560b135dfcf4397c/legacy-support-v4-1.0.0-beta01/AndroidManifest.xml:20:5-44
@@ -285,12 +306,12 @@ MERGED from [androidx.customview:customview:1.0.0] /Users/saranshkalra/.gradle/c
 MERGED from [androidx.customview:customview:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/8c87e949e9f9d3cdf435adfefa7cc286/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a08a61d091975000a4dce67a59e2d28a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a08a61d091975000a4dce67a59e2d28a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a1ba948683f1cc3fb6b9651269eda2cf/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a1ba948683f1cc3fb6b9651269eda2cf/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6217ae39eb11b529fe17c9fec473abce/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6217ae39eb11b529fe17c9fec473abce/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/227b0a1796476d93b382253a71582657/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/227b0a1796476d93b382253a71582657/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a1ba948683f1cc3fb6b9651269eda2cf/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a1ba948683f1cc3fb6b9651269eda2cf/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/bda029c8785439d85d1b6ee0c4a2a58b/core-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/bda029c8785439d85d1b6ee0c4a2a58b/core-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a577a4f2d9e6384dbceeb5e0ea30a993/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -299,16 +320,16 @@ MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/saranshkalra
 MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/232f4a453ff4ee4dc4d17aca3feda22c/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/f814974419152abc412d9d41345c2be3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/f814974419152abc412d9d41345c2be3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9343bafb14981f23529b908b282099d2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9343bafb14981f23529b908b282099d2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/593fd7784a3adf6978e158c9ea2ee8a9/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/593fd7784a3adf6978e158c9ea2ee8a9/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/436611e702b7f557844cf4e31c748255/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/436611e702b7f557844cf4e31c748255/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/222d2d3818c539e35ee4f60deabbc412/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/222d2d3818c539e35ee4f60deabbc412/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/5e02444273c6a07c53ce8cd033ff27e1/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/5e02444273c6a07c53ce8cd033ff27e1/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9343bafb14981f23529b908b282099d2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9343bafb14981f23529b908b282099d2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/593fd7784a3adf6978e158c9ea2ee8a9/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/593fd7784a3adf6978e158c9ea2ee8a9/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6cbcfb2ce82b6124d3e0157ed6461498/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6cbcfb2ce82b6124d3e0157ed6461498/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/f7e4217367496a423c08b58cd7a649f8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
@@ -461,16 +482,6 @@ ADDED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.g
 		ADDED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:33:17-109
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/67e0b97d3ac1c33acaaf232548a0f25b/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/67e0b97d3ac1c33acaaf232548a0f25b/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6685b80d3ed147f07f3d6f110a28e376/jetified-play-services-measurement-impl-18.0.2/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/6685b80d3ed147f07f3d6f110a28e376/jetified-play-services-measurement-impl-18.0.2/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/c0b9c77d87b70d0b9cd24269aa5a059b/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/c0b9c77d87b70d0b9cd24269aa5a059b/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:25:5-68
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:24:22-65
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
 ADDED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:30:13-32:85
 	android:value

@@ -14,6 +14,23 @@
                     }
                 },
                 {
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9f350d2e67cc381e3258b4243b3ae38e/wear-1.0.0/res/values-en-rXC/values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,264",
+                        "endColumns": "208,218",
+                        "endOffsets": "259,478"
+                    },
+                    "to": {
+                        "startLines": "31,32",
+                        "startColumns": "4,4",
+                        "startOffsets": "5885,6094",
+                        "endColumns": "208,218",
+                        "endOffsets": "6089,6308"
+                    }
+                },
+                {
                     "source": "/Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/bda029c8785439d85d1b6ee0c4a2a58b/core-1.1.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2",

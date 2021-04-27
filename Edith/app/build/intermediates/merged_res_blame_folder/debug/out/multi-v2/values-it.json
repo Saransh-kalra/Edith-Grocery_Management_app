@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "/Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9f350d2e67cc381e3258b4243b3ae38e/wear-1.0.0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,184",
+                        "endColumns": "128,134",
+                        "endOffsets": "179,314"
+                    },
+                    "to": {
+                        "startLines": "49,50",
+                        "startColumns": "4,4",
+                        "startOffsets": "5718,5847",
+                        "endColumns": "128,134",
+                        "endOffsets": "5842,5977"
+                    }
+                },
+                {
                     "source": "/Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4b67a4f928447aed16f5ade9c01097e0/jetified-play-services-basement-17.1.0/res/values-it/values.xml",
                     "from": {
                         "startLines": "4",
