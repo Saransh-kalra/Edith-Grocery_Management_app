@@ -4,6 +4,10 @@ public class User {
 
     public String email, dietary_preference, profile_pic;
 
+    public User() {
+        // Default constructor required for calls to DataSnapshot.getValue(User.class)
+    }
+
     public User(String email, String dietary_preference) {
         this.email = email;
         this.dietary_preference = dietary_preference;

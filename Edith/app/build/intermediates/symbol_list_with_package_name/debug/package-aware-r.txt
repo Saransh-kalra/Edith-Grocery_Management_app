@@ -1249,6 +1249,7 @@ id FUNCTION
 id META
 id MeatImage
 id MeatRecycler
+id ProfileImageView
 id SHIFT
 id SYM
 id Sign_up_patient
@@ -1392,7 +1393,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
 id info
 id invisible
 id italic

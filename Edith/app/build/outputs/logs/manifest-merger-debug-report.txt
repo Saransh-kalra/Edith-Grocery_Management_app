@@ -15,6 +15,7 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/saranshkalra/.grad
 MERGED from [com.google.firebase:firebase-auth:20.0.4] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/908723cdec9cb99679fde0400ab416a0/jetified-firebase-auth-20.0.4/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-storage:19.2.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/2463fd9af60315f94ca6b2e1beadb579/jetified-firebase-storage-19.2.2/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/563718d3b73efddd7424fc9bb5586f6e/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/11cfac957c2aaac33a539a97075c2a35/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/e7656dc500e26d5985fed9d364afdc23/jetified-firebase-installations-16.3.5/AndroidManifest.xml:2:1-24:12
@@ -55,6 +56,7 @@ MERGED from [androidx.core:core:1.1.0] /Users/saranshkalra/.gradle/caches/transf
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/a577a4f2d9e6384dbceeb5e0ea30a993/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/f814974419152abc412d9d41345c2be3/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/232f4a453ff4ee4dc4d17aca3feda22c/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/75f3393893bf12c7bc2a647ac44fc043/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/436611e702b7f557844cf4e31c748255/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/593fd7784a3adf6978e158c9ea2ee8a9/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/9343bafb14981f23529b908b282099d2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -99,6 +101,8 @@ MERGED from [com.google.firebase:firebase-storage:19.2.2] /Users/saranshkalra/.g
 MERGED from [com.google.firebase:firebase-storage:19.2.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/2463fd9af60315f94ca6b2e1beadb579/jetified-firebase-storage-19.2.2/AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/563718d3b73efddd7424fc9bb5586f6e/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/563718d3b73efddd7424fc9bb5586f6e/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/11cfac957c2aaac33a539a97075c2a35/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/11cfac957c2aaac33a539a97075c2a35/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:26:5-34:19
@@ -243,6 +247,8 @@ MERGED from [com.google.firebase:firebase-storage:19.2.2] /Users/saranshkalra/.g
 MERGED from [com.google.firebase:firebase-storage:19.2.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/2463fd9af60315f94ca6b2e1beadb579/jetified-firebase-storage-19.2.2/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/563718d3b73efddd7424fc9bb5586f6e/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/563718d3b73efddd7424fc9bb5586f6e/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/11cfac957c2aaac33a539a97075c2a35/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/11cfac957c2aaac33a539a97075c2a35/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:20:5-44
@@ -323,6 +329,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/f814974419152abc412d9d41345c2be3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/232f4a453ff4ee4dc4d17aca3feda22c/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/232f4a453ff4ee4dc4d17aca3feda22c/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/75f3393893bf12c7bc2a647ac44fc043/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/75f3393893bf12c7bc2a647ac44fc043/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/436611e702b7f557844cf4e31c748255/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/436611e702b7f557844cf4e31c748255/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/593fd7784a3adf6978e158c9ea2ee8a9/interpolator-1.0.0/AndroidManifest.xml:20:5-44
@@ -485,6 +493,14 @@ ADDED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.g
 		ADDED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-database:19.7.0] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/24ac034c76dfb1b3647cba84ddb1672b/jetified-firebase-database-19.7.0/AndroidManifest.xml:33:17-109
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/563718d3b73efddd7424fc9bb5586f6e/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/563718d3b73efddd7424fc9bb5586f6e/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/563718d3b73efddd7424fc9bb5586f6e/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/563718d3b73efddd7424fc9bb5586f6e/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
 ADDED from [com.google.android.gms:play-services-measurement-api:18.0.2] /Users/saranshkalra/.gradle/caches/transforms-2/files-2.1/4ffa197dfdf4bdbf00a84b3aeb275a0f/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:30:13-32:85
 	android:value

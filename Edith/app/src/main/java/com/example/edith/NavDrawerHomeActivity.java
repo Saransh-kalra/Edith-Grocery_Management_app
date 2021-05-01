@@ -1,13 +1,27 @@
 package com.example.edith;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.squareup.picasso.Picasso;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -21,6 +35,14 @@ public class NavDrawerHomeActivity extends AppCompatActivity
 
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
+    ImageView profile_pic;
+    TextView user_email;
+    private FirebaseStorage storage;
+    private StorageReference storageReference;
+    private DatabaseReference mDatabase;
+    private FirebaseAuth mAuth;
+    String userEmail;
+    String ProfilePicPath;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,8 +57,54 @@ public class NavDrawerHomeActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        View header = navigationView.getHeaderView(0);
+
+        profile_pic = header.findViewById(R.id.ProfileImageView);
+        user_email = header.findViewById(R.id.userEmail);
+        storage = FirebaseStorage.getInstance();
+        storageReference = storage.getReference();
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+        mAuth = FirebaseAuth.getInstance();
+
+        mDatabase.child("Users").child(mAuth.getCurrentUser().getUid()).child("email").get()
+                .addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DataSnapshot> task) {
+                        if (!task.isSuccessful()) {
+                            Log.e("firebase", "Error getting data", task.getException());
+                        }
+                        else {
+                            userEmail = String.valueOf(task.getResult().getValue());
+                            user_email.setText(userEmail);
+                            user_email.setTextColor(Color.parseColor("#FFFFFF"));
+                            user_email.setVisibility(View.VISIBLE);
+                        }
+                    }
+                });
+
+        mDatabase.child("Users").child(mAuth.getCurrentUser().getUid()).child("profile_pic").get()
+                .addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DataSnapshot> task) {
+                        if (!task.isSuccessful()) {
+                            Log.e("firebase", "Error getting data", task.getException());
+                        }
+                        else {
+                            String imageUri = String.valueOf(task.getResult().getValue());
+                            Picasso.get()
+                                    .load(imageUri) // Uri of the picture
+                                    .into(profile_pic);
+
+                        }
+                    }
+                });
+
+
+
+
     }
 
     @Override

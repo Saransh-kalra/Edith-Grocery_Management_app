@@ -44,6 +44,7 @@ public class SignUp extends AppCompatActivity {
     private StorageReference storageReference;
     Uri downloadUri;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
