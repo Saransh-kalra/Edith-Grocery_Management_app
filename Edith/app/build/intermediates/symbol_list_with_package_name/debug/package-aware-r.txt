@@ -1446,7 +1446,6 @@ id profile_pic_text
 id progress_circular
 id progress_horizontal
 id radio
-id re_enter_pass
 id right
 id right_icon
 id right_side
@@ -1513,7 +1512,6 @@ id textStart
 id textView
 id textView1
 id textView10
-id textView11
 id textView12
 id textView2
 id textView3

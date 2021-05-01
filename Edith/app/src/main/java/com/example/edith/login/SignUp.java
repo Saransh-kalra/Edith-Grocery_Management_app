@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.edith.NavDrawerHomeActivity;
 import com.example.edith.R;
+import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -35,12 +36,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SignUp extends AppCompatActivity {
 
-    EditText Email, Password, reEnterPassword, DietaryPreference;
+    EditText Email, Password, DietaryPreference;
     private ImageView profilePic;
     private Uri imageUri;
     private FirebaseAuth mAuth;
     private FirebaseStorage storage;
     private StorageReference storageReference;
+    Uri downloadUri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +55,6 @@ public class SignUp extends AppCompatActivity {
         storageReference = storage.getReference();
         Email = (EditText) findViewById(R.id.email);
         Password = (EditText) findViewById(R.id.password);
-        reEnterPassword = (EditText) findViewById(R.id.re_enter_pass);
         DietaryPreference = (EditText) findViewById(R.id.dietary_preference);
         profilePic = findViewById(R.id.profile_pic);
 
@@ -92,10 +93,10 @@ public class SignUp extends AppCompatActivity {
         pd.show();
 
         final String randomKey = UUID.randomUUID().toString();
-        StorageReference riversRef = storageReference.child("images/" + randomKey);
+        final StorageReference riversRef = storageReference.child("images/" + randomKey);
 
-        riversRef.putFile(imageUri)
-                .addOnSuccessListener((new OnSuccessListener<UploadTask.TaskSnapshot>() {
+        UploadTask uploadTask = riversRef.putFile(imageUri);
+        uploadTask.addOnSuccessListener((new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         pd.dismiss();
@@ -117,13 +118,34 @@ public class SignUp extends AppCompatActivity {
                         pd.setMessage("Progress: " + (int) progressPercent + "%");
                     }
                 });
+
+        Task<Uri> urlTask = uploadTask.continueWithTask(new Continuation<UploadTask.TaskSnapshot, Task<Uri>>() {
+            @Override
+            public Task<Uri> then(@NonNull Task<UploadTask.TaskSnapshot> task) throws Exception {
+                if (!task.isSuccessful()) {
+                    throw task.getException();
+                }
+
+                // Continue with the task to get the download URL
+                return riversRef.getDownloadUrl();
+            }
+        }).addOnCompleteListener(new OnCompleteListener<Uri>() {
+            @Override
+            public void onComplete(@NonNull Task<Uri> task) {
+                if (task.isSuccessful()) {
+                    downloadUri = task.getResult();
+                } else {
+                    // Handle failures
+                    // ...
+                }
+            }
+        });
     }
 
     public void registeruser(View view){
 
         final String email = Email.getText().toString().trim();
         String password = Password.getText().toString().trim();
-        String password_match = reEnterPassword.getText().toString().trim();
         final String dietaryPreference = DietaryPreference.getText().toString().trim();
 
         if (email.isEmpty()){
@@ -144,31 +166,18 @@ public class SignUp extends AppCompatActivity {
             return;
         }
 
-        if (password_match.isEmpty()){
-            reEnterPassword.setError("Re-Entering password is required!");
-            reEnterPassword.requestFocus();
-            return;
-        }
-
         if (password.length() < 8){
             Password.setError("Password length should be <= 8!");
             Password.requestFocus();
             return;
         }
 
-        //if (password != password_match) {
-           // Password.setError("Passwords should match!");
-            //reEnterPassword.setError("Passwords should match!");
-           // Password.requestFocus();
-           // return;
-       // }
-
         mAuth.createUserWithEmailAndPassword(email,password)
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            User user = new User(email,dietaryPreference);
+                            User user = new User(email,dietaryPreference,downloadUri.toString());
                             FirebaseDatabase.getInstance().getReference("Users")
                                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                     .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {

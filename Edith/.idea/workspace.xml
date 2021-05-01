@@ -11,12 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b74e529-ca7f-410d-9391-b5b61cf772c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_20_0_3_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/edith/login/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/edith/login/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/edith/login/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/edith/login/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,12 +346,12 @@
       <screen x="0" y="25" width="2560" height="995" />
     </state>
     <state x="1018" y="278" key="extract.method.dialog/0.25.2560.995@0.25.2560.995" timestamp="1618210782864" />
-    <state width="300" height="36" key="javadoc.popup.new" timestamp="1619854735911">
+    <state width="300" height="36" key="javadoc.popup.new" timestamp="1619856457980">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="300" height="40" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1619519179342" />
     <state width="534" height="45" key="javadoc.popup.new/0.0.2560.1080@0.0.2560.1080" timestamp="1618390671264" />
-    <state width="300" height="36" key="javadoc.popup.new/0.25.1440.815@0.25.1440.815" timestamp="1619854735911" />
+    <state width="300" height="36" key="javadoc.popup.new/0.25.1440.815@0.25.1440.815" timestamp="1619856457980" />
     <state width="300" height="37" key="javadoc.popup.new/0.25.1440.817@0.25.1440.817" timestamp="1619603324965" />
     <state width="300" height="36" key="javadoc.popup.new/0.25.1440.875@0.25.1440.875" timestamp="1618369324826" />
     <state width="300" height="36" key="javadoc.popup.new/0.25.2560.995@0.25.2560.995" timestamp="1618414996772" />
