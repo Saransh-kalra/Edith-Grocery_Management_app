@@ -147,6 +147,10 @@ public class NavDrawerHomeActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_add_items) {
+            fragmentManager = getSupportFragmentManager();
+            fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.add(R.id.container_fragment, new add_ingredient());
+            fragmentTransaction.commit();
 
         } else if (id == R.id.nav_statistics) {
 

@@ -1245,6 +1245,7 @@ fraction ws_action_drawer_item_right_padding
 id ALT
 id CTRL
 id ExpirationImage
+id ExpiryDate
 id FUNCTION
 id META
 id MeatImage
@@ -1381,6 +1382,7 @@ id filled
 id fixed
 id forever
 id fragment
+id fragment_add_ingredient
 id ghost_view
 id gone
 id group_divider
@@ -1430,6 +1432,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id number_picker
 id off
 id on
 id outline
@@ -1631,6 +1634,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_ingredient
 layout activity_sign_up
 layout activity_view_inventory
 layout app_bar_home
@@ -1652,6 +1656,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_add_ingredient
 layout fragment_view_inventory
 layout home_page
 layout landing_activity

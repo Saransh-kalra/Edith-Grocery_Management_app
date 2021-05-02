@@ -204,6 +204,10 @@
         "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_activity_add_ingredient.xml.flat",
+        "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/activity_add_ingredient.xml"
+    },
+    {
         "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/drawable_ic_notifications_active_black_24dp.xml.flat",
         "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/drawable/ic_notifications_active_black_24dp.xml"
     },
@@ -266,6 +270,10 @@
     {
         "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/menu_three_dot_menu.xml.flat",
         "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/menu/three_dot_menu.xml"
+    },
+    {
+        "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_fragment_add_ingredient.xml.flat",
+        "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/fragment_add_ingredient.xml"
     },
     {
         "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_app_launch_round.png.flat",

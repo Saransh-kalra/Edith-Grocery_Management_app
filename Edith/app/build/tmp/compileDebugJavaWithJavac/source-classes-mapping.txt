@@ -1,5 +1,8 @@
 com/example/edith/model/MeatContents.java
  com.example.edith.model.MeatContents
+com/example/edith/add_ingredient.java
+ com.example.edith.add_ingredient
+ com.example.edith.add_ingredient$1
 com/example/edith/adapter/meatcontentsadapter.java
  com.example.edith.adapter.meatcontentsadapter
  com.example.edith.adapter.meatcontentsadapter$meatcontentsviewholder
