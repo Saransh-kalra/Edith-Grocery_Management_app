@@ -40,6 +40,14 @@
         "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/drawable/profile_logo.png"
     },
     {
+        "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/drawable_ic_baseline_delete_forever_24.xml.flat",
+        "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml"
+    },
+    {
+        "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_inventory_items.xml.flat",
+        "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/inventory_items.xml"
+    },
+    {
         "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/drawable_edit_text_border.xml.flat",
         "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/drawable/edit_text_border.xml"
     },
@@ -178,10 +186,6 @@
     {
         "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/mipmap-hdpi_app_launch_round.png.flat",
         "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/mipmap-hdpi/app_launch_round.png"
-    },
-    {
-        "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_meat_column_items.xml.flat",
-        "source": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/src/main/res/layout/meat_column_items.xml"
     },
     {
         "merged": "/Users/saranshkalra/Downloads/Sennior-Capstone-project-spring-2021/Edith/app/build/intermediates/res/merged/debug/layout_login_activity.xml.flat",

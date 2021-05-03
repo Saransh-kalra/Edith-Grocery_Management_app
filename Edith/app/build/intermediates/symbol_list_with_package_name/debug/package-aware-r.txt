@@ -1181,6 +1181,7 @@ drawable generic_confirmation_animation
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add_box_black_24dp
+drawable ic_baseline_delete_forever_24
 drawable ic_baseline_login_24
 drawable ic_cake_black_24dp
 drawable ic_folder_black_24dp
@@ -1244,12 +1245,10 @@ fraction ws_action_drawer_item_left_padding
 fraction ws_action_drawer_item_right_padding
 id ALT
 id CTRL
-id ExpirationImage
 id ExpiryDate
 id FUNCTION
+id InventoryRecycler
 id META
-id MeatImage
-id MeatRecycler
 id ProfileImageView
 id SHIFT
 id SYM
@@ -1309,7 +1308,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id add_ingredient
+id addIngredient
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1330,7 +1329,6 @@ id btn_login
 id btn_signup
 id butt
 id button
-id button2
 id button3
 id buttonPanel
 id cancel_action
@@ -1353,6 +1351,7 @@ id customPanel
 id dark
 id decor_content_parent
 id default_activity_button
+id deletebutton
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1365,7 +1364,6 @@ id direct
 id disableHome
 id dob
 id drawer_layout
-id editTextTextPersonName
 id edit_query
 id email
 id end
@@ -1398,6 +1396,7 @@ id ifRoom
 id image
 id info
 id ingredient_name
+id inventorysearch
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1419,7 +1418,6 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiPage
 id multiply
-id name
 id nav_add_items
 id nav_inventory
 id nav_notification_setting
@@ -1450,6 +1448,7 @@ id profile_pic
 id profile_pic_text
 id progress_circular
 id progress_horizontal
+id quantityview
 id radio
 id right
 id right_icon
@@ -1517,6 +1516,7 @@ id textStart
 id textView
 id textView1
 id textView10
+id textView11
 id textView12
 id textView2
 id textView3
@@ -1661,9 +1661,9 @@ layout design_text_input_password_icon
 layout fragment_add_ingredient
 layout fragment_view_inventory
 layout home_page
+layout inventory_items
 layout landing_activity
 layout login_activity
-layout meat_column_items
 layout nav_drawer_home_activity
 layout nav_header_home
 layout notification_action

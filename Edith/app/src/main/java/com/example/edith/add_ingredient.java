@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.NumberPicker;
 import android.widget.TextView;
 
+import com.example.edith.adapter.InventoryAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -24,8 +25,6 @@ import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 
 import androidx.fragment.app.Fragment;
 
@@ -55,6 +54,7 @@ public class add_ingredient extends Fragment {
         mDisplayDate = getView().findViewById(R.id.ExpiryDate);
         ingredient_name = getView().findViewById(R.id.ingredient_name);
         addIngredients = getView().findViewById(R.id.addIngredient);
+        InventoryAdapter inventoryadapter;
 
         mDisplayDate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,12 +77,13 @@ public class add_ingredient extends Fragment {
         addIngredients.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DatabaseReference arrayRef = mDatabase.child("Users").child(mAuth.getCurrentUser().getUid()).child("ingredients").push();
-                String key = arrayRef.getKey();
-                Map<String, Object> map = new HashMap<>();
-                map.put(key, new Ingredient(ingredient_name.getText().toString(),mNumberPicker.getValue(),date1));
-                arrayRef.updateChildren(map);
-
+//                DatabaseReference arrayRef = mDatabase.child("Users").child(mAuth.getCurrentUser().getUid()).child("ingredients").push();
+//                String key = arrayRef.getKey();
+//                Map<String, Object> map = new HashMap<>();
+//                map.put(key, new Ingredient(ingredient_name.getText().toString(),mNumberPicker.getValue(),date1));
+//                arrayRef.updateChildren(map);
+                arraylistcontainer newcontainer = new arraylistcontainer();
+                newcontainer.additemtothisarray(ingredient_name.getText().toString(),mNumberPicker.getValue(),date1);
 
                 Intent i = new Intent(add_ingredient.this.getActivity(), NavDrawerHomeActivity.class);
                 startActivity(i);

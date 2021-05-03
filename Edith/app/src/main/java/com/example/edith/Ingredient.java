@@ -17,4 +17,27 @@ public class Ingredient {
         this.expiryDate = expiryDate;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getQuantity() {
+        return quantity.toString();
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getExpiryDate() {
+        return expiryDate.toString();
+    }
+
+    public void setExpiryDate(Date expiryDate) {
+        this.expiryDate = expiryDate;
+    }
 }

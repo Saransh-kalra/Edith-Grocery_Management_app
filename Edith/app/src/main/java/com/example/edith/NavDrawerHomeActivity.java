@@ -68,6 +68,8 @@ public class NavDrawerHomeActivity extends AppCompatActivity
         storageReference = storage.getReference();
         mDatabase = FirebaseDatabase.getInstance().getReference();
         mAuth = FirebaseAuth.getInstance();
+        arraylistcontainer newcontainer = new arraylistcontainer();
+        newcontainer.setuparraylist();
 
         mDatabase.child("Users").child(mAuth.getCurrentUser().getUid()).child("email").get()
                 .addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {

@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.edith.NavDrawerHomeActivity;
+import com.example.edith.LandingActivity;
 import com.example.edith.R;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -172,13 +172,20 @@ public class SignUp extends AppCompatActivity {
             Password.requestFocus();
             return;
         }
+        final String downloadUriString;
+        if (downloadUri == null) {
+            downloadUriString = "https://firebasestorage.googleapis.com/v0/b/edith-f8054.appspot.com/o/default%2Fprofile_logo.png?alt=media&token=7fe1c086-db34-403d-a7c7-1a9fc8d6f83f";
+        }
+        else {
+            downloadUriString = downloadUri.toString();
+        }
 
         mAuth.createUserWithEmailAndPassword(email,password)
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            User user = new User(email,dietaryPreference,downloadUri.toString());
+                            User user = new User(email,dietaryPreference,downloadUriString);
                             FirebaseDatabase.getInstance().getReference("Users")
                                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                     .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
@@ -196,7 +203,7 @@ public class SignUp extends AppCompatActivity {
                     }
                 });
 
-        Intent i = new Intent(this, NavDrawerHomeActivity.class);
+        Intent i = new Intent(this, LandingActivity.class);
         startActivity(i);
 
 
