@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "343023494163",
-    "project_id": "edith-f8054",
-    "storage_bucket": "edith-f8054.appspot.com"
+    "project_number": "784871020149",
+    "firebase_url": "https://edith-9e0e4-default-rtdb.firebaseio.com",
+    "project_id": "edith-9e0e4",
+    "storage_bucket": "edith-9e0e4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:343023494163:android:efaa48d6cded9ef6ec8be6",
+        "mobilesdk_app_id": "1:784871020149:android:eea1a5c643323e9c75ca3c",
         "android_client_info": {
           "package_name": "com.example.edith"
         }
       },
       "oauth_client": [
         {
-          "client_id": "343023494163-t3sm68dhdog8veskdgi8vk6nmv8oqftb.apps.googleusercontent.com",
+          "client_id": "784871020149-vl520ap0i6l4bm1jjibvvknrkp2gactc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDMiIUorLla1Hp_ASNCWuLRThLZMRKn_gQ"
+          "current_key": "AIzaSyDetvnh-k--ABl_qH0eA9tRlByt_hZ_8cA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "343023494163-t3sm68dhdog8veskdgi8vk6nmv8oqftb.apps.googleusercontent.com",
+              "client_id": "784871020149-vl520ap0i6l4bm1jjibvvknrkp2gactc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
